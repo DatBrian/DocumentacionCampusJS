@@ -1,3 +1,4 @@
-let string = "Método startsWith";
-console.log(string.startsWith("M"));
-console.log(string.startsWith("N"));
+let string = "Método endsWidth";
+console.log(string.endsWith("h"));
+console.log(string.endsWith("i"));
+
