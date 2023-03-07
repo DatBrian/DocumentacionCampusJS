@@ -1,4 +1,2 @@
-let string = "Método endsWidth";
-console.log(string.endsWith("h"));
-console.log(string.endsWith("i"));
-
+let string = "Método replace";
+console.log(string.replace("Método", "método"));
