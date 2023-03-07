@@ -1,4 +1,3 @@
-let string = "Método split";
-let result = string.split(" ");
+let string = "Método search";
+result = string.search("search");
 console.log(result);
-    
