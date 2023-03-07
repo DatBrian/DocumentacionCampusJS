@@ -1,4 +1,4 @@
-let string = "Método charAt";
-let result = string.charAt(0)
+let string = "Método split";
+let result = string.split(" ");
 console.log(result);
-
+    
