@@ -1,3 +1,4 @@
-let string = "Método repeat ";
-console.log(string.repeat(2));
+let string = "Método indexOf";
+let result = string.indexOf("Of");
+console.log(result);  
 
