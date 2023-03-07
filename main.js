@@ -1,3 +1,3 @@
-let string = "Método search";
-result = string.search("search");
+let string = "Método toLowerCase";
+let result = string.toLowerCase();
 console.log(result);
