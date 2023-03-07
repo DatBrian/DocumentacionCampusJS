@@ -1,2 +1,4 @@
-let string = "Método replace";
-console.log(string.replace("Método", "método"));
+let string = "Método slice";
+let string2 = string.slice(7, 13)
+console.log(string2);
+
