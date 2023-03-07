@@ -1,4 +1,4 @@
-let string = "Método indexOf";
-let result = string.indexOf("Of");
-console.log(result);  
+let string = "Método substr";
+result = string.substr(6, 7)
+console.log(result);
 
