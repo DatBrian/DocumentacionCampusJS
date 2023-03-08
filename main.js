@@ -1,14 +1,11 @@
-let operador = "logicos";
-console.log(operador);
-
-let case1 = true && true;
+let case1 = true || true;
 console.log(case1);
 
-let case2 = true && false;
+let case2 = true || false;
 console.log(case2);
 
-let case3 = false && false;
+let case3 = false || false;
 console.log(case3);
 
-let case4 = false && true;
+let case4 = false || true;
 console.log(case4);
