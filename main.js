@@ -1,6 +1,9 @@
-let case1 = true
-let case2 = false
-let result1 = case1 && !case2
-let result2 = !case1 || case2
-console.log(result1);
-console.log(result2);
+let case1 =  true;
+let case2 = false;
+let case3 = false;
+
+let resultv = case1 ^ case2;
+console.log(resultv);
+
+let resultf = case2 ^ case3;
+console.log(resultf);
