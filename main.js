@@ -1,9 +1,7 @@
-let case1 =  true;
-let case2 = false;
-let case3 = false;
+let Op1 = 5;
+let Op2 = 10;
+console.log(Op1 == Op2);
 
-let resultv = case1 ^ case2;
-console.log(resultv);
-
-let resultf = case2 ^ case3;
-console.log(resultf);
+let Op3 = 15;
+let Op4 = "15";
+console.log(Op3 == Op4);
