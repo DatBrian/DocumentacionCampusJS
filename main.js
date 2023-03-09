@@ -1,1 +1,2 @@
-console.log(Math.pow(5, 2));
+console.log(Math.random()); 
+console.log(Math.random()*10);
