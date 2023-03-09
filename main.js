@@ -1,6 +1,6 @@
-let Op1 = 10;
-console.log(Op1);
-if (Op1 == 10) {
-    Op1--;
-    console.log(Op1)
-}
+console.log(Math.abs('-1'));     
+console.log(Math.abs(-2));   
+console.log(Math.abs(null));    
+console.log(Math.abs(''));     
+console.log(Math.abs([]));     
+console.log(Math.abs([2]));
