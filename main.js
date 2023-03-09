@@ -1,2 +1,3 @@
-console.log(Math.round(1.9));
-console.log(Math.round(3));
+console.log(Math.acos(-1));
+console.log(Math.acos(-2));
+console.log(Math.acos(2));
