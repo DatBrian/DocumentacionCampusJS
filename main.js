@@ -1,3 +1,3 @@
-console.log(Math.atan(1));
+console.log(Math.cos(1));
 
 
