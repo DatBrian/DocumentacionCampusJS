@@ -1,3 +1,4 @@
-console.log(Math.exp(-1)); 
-console.log(Math.exp(0));
-console.log(Math.exp(1));
+function getBaseLog(x, y) {
+    return Math.log(y) / Math.log(x);
+  }
+console.log(getBaseLog(2, 8));
