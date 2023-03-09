@@ -1,6 +1,3 @@
-console.log(Math.abs('-1'));     
-console.log(Math.abs(-2));   
-console.log(Math.abs(null));    
-console.log(Math.abs(''));     
-console.log(Math.abs([]));     
-console.log(Math.abs([2]));
+console.log(Math.exp(-1)); 
+console.log(Math.exp(0));
+console.log(Math.exp(1));
