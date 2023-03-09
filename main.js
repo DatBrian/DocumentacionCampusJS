@@ -1,3 +1,6 @@
 let Op1 = 10;
-let Op2 = 5;
-console.log(Op1 % Op2);
+console.log(Op1);
+if (Op1 == 10) {
+    Op1++;
+    console.log(Op1)
+}
