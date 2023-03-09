@@ -1,3 +1,3 @@
-console.log(Math.sin(1));
+console.tan(Math.sin(1));
 
 
