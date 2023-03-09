@@ -1,1 +1,2 @@
-console.log(Math.sqrt(25));
+console.log(Math.ceil(0.9));
+console.log(Math.ceil(2));
