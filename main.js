@@ -1,4 +1,2 @@
-const despedida = function despedirse(){
-    return "Adiós";
-};
-alert(despedida())
+const despedirse = new Function("return 'Adiós'");
+alert(despedirse());
