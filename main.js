@@ -1,5 +1,9 @@
-const despedida = function () {
-    return "Adiós";
-  };
+const F2 = function(){
+  alert("función 2 ejecutada");
+};
 
-alert(despedida());
+const F1 = function(callback){
+  callback();
+};
+
+F1(F2);
