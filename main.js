@@ -1,2 +1,5 @@
-const despedirse = new Function("return 'Adiós'");
-alert(despedirse());
+const despedida = function () {
+    return "Adiós";
+  };
+
+alert(despedida());
