@@ -1,5 +1,11 @@
-const nombre = () => {
-  return "Brian"
+padre = {
+  a: function () {
+    alert(this);
+  },
+  b: () => {
+    alert(this);
+  },
 };
 
-alert(nombre())
+padre.a();
+padre.b();
