@@ -1,11 +1,5 @@
-const incremento = (function () {
-  let num = 0;
-  return function () {
-    num++;
-    return num;
-  };
-})();
+const nombre = () => {
+  return "Brian"
+};
 
-alert(incremento());
-alert(incremento());
-alert(incremento());
+alert(nombre())
