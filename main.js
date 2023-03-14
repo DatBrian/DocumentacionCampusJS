@@ -1,11 +1,3 @@
-padre = {
-  a: function () {
-    alert(this);
-  },
-  b: () => {
-    alert(this);
-  },
-};
-
-padre.a();
-padre.b();
+const array = [ ['0', 'a'], ['1', 'b'], ['2', 'c'] ];
+const objeto = Object.fromEntries(array);
+console.log(objeto);
