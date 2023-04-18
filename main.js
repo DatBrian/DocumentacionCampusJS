@@ -1,3 +1,5 @@
-//const username = formData.get (‘textInput’);
-//const passwordInput = formData.get (‘passwordInput’);
-//const passwordMatchInput = formData.get (‘passwordMatchInput’);
+let names = ["brian", "kaleth", "katherin"];
+
+names.forEach((name) => {
+    console.log(name);
+})
